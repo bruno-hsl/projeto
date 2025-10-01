@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function NavBar() {
+export default function Footer() {
   return (
     <View style={styles.navbar}>
       <StatusBar style="light" />
-      <Text style={styles.navText}>Navbar</Text>
+      <Text style={styles.navText}>Footer</Text>
     </View>
   );
 }
